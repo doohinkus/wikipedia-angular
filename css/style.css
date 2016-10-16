@@ -1,0 +1,49 @@
+body {
+  /*background-color:#a6daef;*/
+}
+
+.search {
+  font-weight: bold;
+}
+
+.center {
+  margin: auto;
+}
+
+.result {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+.green-border {
+  border-radius: 25px;
+  border: 2px solid #bfe2ca;
+  padding: 1em;
+  margin-top: 1em;
+  background-color: #fff;
+}
+
+
+/*
+.green-border:hover{
+  border: 2px solid #F4858e;
+}*/
+
+.holder {
+  margin: auto;
+  boder: 1px solid black;
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
+
+.ng-enter {
+  -webkit-animation: fadeInRight 0.5s;
+  animation: fadeInLeft 0.5s;
+}
